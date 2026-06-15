@@ -1,0 +1,142 @@
+/*
+Adı Soyadı:DİLAN SUTLU
+Öğrenci Numarası:262484028
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    background: #111;
+    padding: 20px 0;
+}
+
+.navbar {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+.btn-logout {
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn-logout:hover {
+    background-color: #c0392b;
+}
+
+.kitap-konteyner {
+    width: 85%;
+    margin: 40px auto;
+}
+
+.baslik {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.kitap-listesi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.kitap-kart {
+    background: white;
+    width: 220px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.kart-resim {
+    width: 100%;
+    height: 260px;
+}
+
+.kart-resim img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kart-detay {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.kart-detay h3 {
+    font-size: 16px;
+    color: #222;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.kart-detay p {
+    font-size: 13px;
+    color: #666;
+}
+
+.takas-buton {
+    text-decoration: none;
+    background: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.takas-buton:hover {
+    background: #2980b9;
+}
+
+.bos-mesaj {
+    color: #aaa;
+    font-style: italic;
+}

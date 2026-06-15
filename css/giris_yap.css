@@ -1,0 +1,126 @@
+/*
+Adı Soyadı:DİLAN SUTLU
+Öğrenci Numarası:262484028
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/bg_kitaks.png");
+    animation: bgFade 1.5s ease-in-out forwards;
+}
+
+@keyframes bgFade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.form-wrapper {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+    animation: slideUp 0.8s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e3c72;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background: #f1f9fc;
+    padding: 10px 12px;
+    transition: all 0.3s;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: #999;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.input-group:focus-within i {
+    color: #2a5298;
+}
+
+.input-group:focus-within {
+    border-color: #2a5298;
+}
+
+.input-group input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(42, 82, 152, 0.4);
+}
+
+.login-link {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.login-link a {
+    color: #2a5298;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-link a:hover {
+    color: #1e3c72;
+}
