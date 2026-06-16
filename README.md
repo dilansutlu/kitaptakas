@@ -33,4 +33,4 @@ Projeyi bilgisayarınızda çalıştırmak için lütfen aşağıdaki adımları
 
 ## 👥 Test Kullanıcı Bilgileri
 Sistemi hızlıca test edebilmeniz için hazır örnek hesap:
-* **E-posta:** test@gmail.com | **Şifre:** 123456
+* **E-posta:** dilansutlu@gmail.com | **Şifre:** dilansutlu
